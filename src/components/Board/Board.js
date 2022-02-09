@@ -3,6 +3,9 @@ import "./board.css";
 import Square from "../Square/Square";
 
 export default function Board() {
+  function handleClick() {
+    console.log("button clicked");
+  }
   return (
     <div className="board-div">
       <div className="cell"></div>
@@ -14,15 +17,8 @@ export default function Board() {
       <div className="cell"></div>
       <div className="cell"></div>
       <div className="cell"></div>
-      {/* <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square /> */}
+
+      <Square handleClick={() => handleClick()} />
     </div>
   );
 }

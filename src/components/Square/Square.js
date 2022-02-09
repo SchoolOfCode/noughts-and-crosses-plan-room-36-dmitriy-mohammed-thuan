@@ -1,10 +1,10 @@
 import React from "react";
 import "./square.css";
 
-export default function Square() {
+export default function Square(handleClick) {
   return (
     <div className="square-div">
-      <p>1</p>
+      <button onClick={handleClick}>P</button>
     </div>
   );
 }
