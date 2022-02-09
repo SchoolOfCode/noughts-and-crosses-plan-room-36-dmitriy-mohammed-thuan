@@ -4,7 +4,7 @@ import "./square.css";
 export default function Square({ handleClick }) {
   return (
     <div className="square-div">
-      <button onClick={handleClick}>P</button>
+      <button onClick={handleClick}>O</button>
     </div>
   );
 }
