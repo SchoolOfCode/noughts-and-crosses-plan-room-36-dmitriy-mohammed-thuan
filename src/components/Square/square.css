@@ -1,0 +1,7 @@
+.square-div {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
