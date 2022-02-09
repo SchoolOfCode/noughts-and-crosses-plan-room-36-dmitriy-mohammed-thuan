@@ -18,7 +18,7 @@ export default function Board() {
       <div className="cell"></div>
       <div className="cell"></div>
 
-      <Square handleClick={() => handleClick()} />
+      <Square handleClick={() => {handleClick()}}/>
     </div>
   );
 }
